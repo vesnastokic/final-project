@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "title": "Walk the Dog",
+        "image_URL" : "https://image.jpeg",
+        "mainContent": "Lorem for the whole article"
+    },
+    {
+        "id": "2",
+        "title": "Walk the Cat",
+        "image_URL" : "https://image.jpeg",
+        "mainContent": "Lorem for the whole other article"
+    }
+]
