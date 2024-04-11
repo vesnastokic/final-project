@@ -1,0 +1,6 @@
+.activities-image {
+    max-width: 50%; /* Set maximum width to 100% of its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin-bottom: 18px; /* Add some margin at the bottom to separate it from other content */
+  }
+  
