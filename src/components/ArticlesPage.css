@@ -1,0 +1,32 @@
+/* ArticlesPage.css */
+
+.articles-container {
+  font-family: "Noto Sans", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ef6db0;
+}
+
+.articles-container h1 {
+  margin-bottom: 20px;
+  color: #db74ca;
+}
+
+.article-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-item {
+  margin-bottom: 20px;
+}
+
+.article-link {
+  text-decoration: none;
+  color: #db74ca;
+}
+
+.article-link:hover {
+  color: #edc2e0;
+}
