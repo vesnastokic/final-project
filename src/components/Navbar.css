@@ -1,25 +1,25 @@
 .navbar {
-    background-color: #f0f0f0; /*background color */
-    padding: 10px 0; 
-  }
-  
-  .navbar ul {
-    list-style-type: none; 
-    margin: 0; 
-    padding: 0; 
-  }
-  
-  .navbar li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add some space between list items */
-  }
-  
-  .navbar a {
-    text-decoration: none; /* remove underline from links */
-    color: #333; /* text color */
-  }
-  
-  .navbar a:hover {
-    color: #555; /* text color on hover */
-  }
-  
+  background-color: #dbb4db; 
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff; /* Change the text color of navbar links */
+  font-weight: bold; /* Optionally add font weight */
+}
+
+.navbar a:hover {
+  color: #5b5858; /* Change the text color of navbar links on hover */
+}

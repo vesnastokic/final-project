@@ -1,3 +1,5 @@
+// HomePage.js
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; 
@@ -34,7 +36,8 @@ const HomePage = () => {
       </p>
       <div className="section-links">
         <h2>Explore Our Sections</h2>
-        <ul>
+        {/* Add className attribute to ul element */}
+        <ul className="explore-links">
           <li>
             <Link to="/grocery-list">Grocery List</Link>
           </li>
