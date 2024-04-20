@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./GroceryListPage.css";
+import RemoveIcon from "./RemoveIcon"
 
 const GroceryListPage = () => {
   const [groceryItems, setGroceryItems] = useState([]);
@@ -69,7 +70,7 @@ const GroceryListPage = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Grocery Shopping List</h1>
       <div>
         <form>
@@ -84,15 +85,15 @@ const GroceryListPage = () => {
           </button>
         </form>
       </div>
-      <ul>
+      <ul className="list-unstyled">
         {groceryItems.map((item) => (
-          <li key={item.id}>
+          <li key={item.id} className="text-capitalize fw-bold">
             {item.name}
             <button
-              className="delete-button"
+              className="delete-button mx-2 my-0 py-0"
               onClick={() => deleteItemFromList(item.id)}
             >
-              Delete
+              <RemoveIcon />
             </button>
           </li>
         ))}
@@ -104,3 +105,4 @@ const GroceryListPage = () => {
 };
 
 export default GroceryListPage;
+

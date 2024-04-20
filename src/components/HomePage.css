@@ -44,3 +44,29 @@ p {
   text-decoration: underline;
   color: #777;
 }
+
+.activity-list {
+  margin-top: 20px; /* Add margin to separate the activity list from the image */
+}
+
+.activity-item {
+  border: 1px solid #ccc; /* Add border to each activity item */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  padding: 10px; 
+  margin-bottom: 10px; /* Add margin between activity items */
+}
+
+.activity-item h3 {
+  margin-top: 0; /* Remove default margin for h3 */
+}
+
+.activity-item p {
+  margin-bottom: 0; /* Remove bottom margin for description */
+}
+
+.activity-item img {
+  max-width: 100%; 
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners to images */
+  margin-bottom: 10px; /* Add margin below images */
+}
