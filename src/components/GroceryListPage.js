@@ -70,7 +70,7 @@ const GroceryListPage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="grocery-container">
       <h1>Grocery Shopping List</h1>
       <div>
         <form>

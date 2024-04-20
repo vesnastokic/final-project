@@ -1,24 +1,57 @@
-.delete-button {
-    padding: 2px 2px; 
-    font-size: 14px; 
-    background-color: #f4e5f4; /* background color */
-    color: #7a7676; /* text color */
-    border: 1px solid black ;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px; /* margin to the right of the delete button */
-  }
-  
-  .delete-button:hover {
-    background-color: #e68fbc; /* background color on hover */
-  }
-  
+/* Update the container class to a more specific class name */
+.grocery-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  ul {
-    padding-left: 10px; 
-  }
-  
-  li {
-    margin-bottom: 5px; /* margin at the bottom of each list item */
-  }
-  
+/* Adjust other styles as needed */
+.grocery-container h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Adjust other styles as needed */
+.grocery-container form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Adjust other styles as needed */
+.grocery-container input[type="text"] {
+  width: 60%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Adjust other styles as needed */
+.grocery-container button[type="submit"] {
+  padding: 6px 15px;
+}
+
+/* Adjust other styles as needed */
+.grocery-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Adjust other styles as needed */
+.grocery-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+/* Adjust other styles as needed */
+.grocery-container .delete-button {
+  padding: 3px;
+  font-size: 12px;
+}

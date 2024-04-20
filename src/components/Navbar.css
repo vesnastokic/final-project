@@ -1,6 +1,7 @@
 .navbar {
-  background-color: #dbb4db; 
-  padding: 10px 0;
+  background-color: #f1cbee; /* Background color */
+  padding: 10px 10px;
+  color: #333; /* Text color */
 }
 
 .navbar ul {
@@ -16,10 +17,11 @@
 
 .navbar a {
   text-decoration: none;
-  color: #fff; /* Change the text color of navbar links */
-  font-weight: bold; 
+  color: #9e607d; /* Text color */
+  font-weight: bold; /* Make the text bold */
 }
 
 .navbar a:hover {
-  color: #5b5858; /* Change the text color of navbar links on hover */
+  text-decoration: underline;
+  color: #555; /* Text color on hover */
 }
