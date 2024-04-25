@@ -17,11 +17,11 @@
 
 .navbar a {
   text-decoration: none;
-  color: #9e607d; /* Text color */
+  color: #453d41; /* Text color */
   font-weight: bold; /* Make the text bold */
 }
 
 .navbar a:hover {
   text-decoration: underline;
-  color: #555; /* Text color on hover */
+  color: #827d7d; /* Text color on hover */
 }
