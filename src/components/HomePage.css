@@ -91,4 +91,14 @@ p {
   line-height: 1.6; /* Adjust line height for readability */
   color: #555; /* Set text color */
 }
+.motherhood-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.motherhood-image {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
 

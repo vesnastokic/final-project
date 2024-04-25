@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css"; 
+import "./HomePage.css";
 
 const HomePage = () => {
   const [advice, setAdvice] = useState("");
@@ -49,6 +49,15 @@ const HomePage = () => {
       <div className="advice">
         <h2>Advice of the Day</h2>
         <p>{advice}</p>
+      </div>
+      {/* Add the motherhood image directly using the URL */}
+      <div className="motherhood-section">
+        <h2>Symbol of Motherhood</h2>
+        <img
+          src="https://cdn.vectorstock.com/i/2000v/05/17/mother-turtle-and-baby-on-a-white-vector-30260517.avif"
+          alt="Symbol of Motherhood"
+          className="motherhood-image"
+        />
       </div>
     </div>
   );
