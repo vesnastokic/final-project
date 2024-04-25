@@ -1,28 +1,69 @@
 .activity-list {
-  margin-top: 20px;
-}
-
-.activity-item {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.activity-item h3 {
-  margin-top: 0;
-}
-
-.activity-item p {
-  margin-bottom: 0;
-}
-
-.activity-item img {
-  max-width: 100%;
-  max-height: 200px; /* Maximum height for the images */
-  width: auto; /* Width to adjust automatically */
-  height: auto; /* Height to adjust automatically */
-  object-fit: contain; /* Images maintain aspect ratio and fit within the container */
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
+    margin-top: 20px;
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .activity-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px; /* Increase bottom margin for better separation */
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .activity-item:hover {
+    transform: translateY(-5px); /* Move the item slightly up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover */
+  }
+  
+  .activity-item h3 {
+    margin-top: 0;
+    font-size: 1.2rem; /* Increase font size for activity names */
+    color: #333; /* Change color for better contrast */
+  }
+  
+  .activity-item p {
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    font-size: 1rem; /* Adjust font size for descriptions */
+    color: #666; /* Change color for better readability */
+  }
+  
+  .activity-item img {
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Remove the global body styling */
+  /* body {
+    font-family: "Noto Sans", sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&w=2825&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover; 
+    background-position: center; 
+  } */
+  
+  .activities-page {
+    background-image: url('https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&w=2825&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .activity-list {
+    margin-top: 20px;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  

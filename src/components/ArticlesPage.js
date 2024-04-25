@@ -33,10 +33,10 @@ const ArticlesPage = () => {
   return (
     <div className="articles-container">
       <h1>Family Articles</h1>
-      <ul className="article-list"> {/* Changed to match the CSS class */}
+      <ul className="article-list">
         {articles.map((article, index) => (
-          <li key={index} className="article-item"> {/* Optional: Added article-item class */}
-            <a href={article.url} target="_blank" rel="noopener noreferrer" className="article-link">
+          <li key={index} className="article-item">
+            <a href={article.url} target="_blank" rel="noopener noreferrer" className="article-link article-text">
               <h3>{article.title}</h3>
               <p>{article.description}</p>
             </a>

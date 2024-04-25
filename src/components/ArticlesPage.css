@@ -3,17 +3,21 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  color: #ef6db0;
+  color: #e4d0da;
 }
 
 .articles-container h1 {
   margin-bottom: 20px;
-  color: #db74ca;
+  color: #000000;
 }
 
 .article-list {
   list-style-type: none;
   padding: 0;
+}
+
+.article-list p {
+  color: #1c1a1a; /* Change the text color to white */
 }
 
 .article-item {
@@ -22,9 +26,33 @@
 
 .article-link {
   text-decoration: none;
-  color: #db74ca;
+  color: #f0f0f0;
+  font-weight: bold; /* Make the text bold */
+  /* Radiant effect */
+  text-shadow: 0 0 30px #cebbcd, /* White glow effect */
+               0 0 30px #cebbcd, /* Increase the glow effect */
+               0 0 30px #cebbcd; /* Further increase the glow effect */
 }
 
 .article-link:hover {
-  color: #edc2e0;
+  color: #000000; /* Change the text color on hover */
+}
+
+
+.articles-container {
+  font-family: "Noto Sans", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ffffff; /* Change the text color to white */
+  background-image: url('https://images.unsplash.com/photo-1551894116-15e3812343f1?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  opacity: 0.9;
+}
+
+.article-text {
+  color: white;
 }
