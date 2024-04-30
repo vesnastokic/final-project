@@ -53,22 +53,6 @@ const GroceryListPage = () => {
     }
   };
 
-  // Function to add new data to the mock API
-  const postData = async () => {
-    try {
-      const newItem = { name: "New Grocery Item", quantity: 1 };
-      const response = await axios.post(
-        "https://65eb6eee43ce16418933d902.mockapi.io/groceries",
-        newItem
-      );
-      console.log("Grocery item added successfully!", response.data);
-      // Update grocery items after successful addition
-      fetchGroceryItems();
-    } catch (error) {
-      console.error("Failed to add grocery item:", error.message);
-    }
-  };
-
   return (
     <div className="grocery-container">
       <h1>Grocery Shopping List</h1>
@@ -98,8 +82,6 @@ const GroceryListPage = () => {
           </li>
         ))}
       </ul>
-      {/* Button to trigger the postData function */}
-      <button onClick={postData}>Add New Grocery Item</button>
     </div>
   );
 };

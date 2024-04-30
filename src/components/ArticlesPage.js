@@ -36,10 +36,13 @@ const ArticlesPage = () => {
       <ul className="article-list">
         {articles.map((article, index) => (
           <li key={index} className="article-item">
-            <a href={article.url} target="_blank" rel="noopener noreferrer" className="article-link article-text">
-              <h3>{article.title}</h3>
+            <div className="article-link">
+              <span className="clickable-sign">➔</span> {/* Add clickable sign */}
+              <a href={article.url} target="_blank" rel="noopener noreferrer" className="article-text">{article.title}</a>
+            </div>
+            <div className="article-description">
               <p>{article.description}</p>
-            </a>
+            </div>
           </li>
         ))}
       </ul>
