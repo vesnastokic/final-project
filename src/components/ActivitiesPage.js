@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; 
@@ -9,7 +8,7 @@ import ActivityList from './ActivityList';
 
 const ActivitiesPage = () => {
   return (
-    <div className="activities-page" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&w=2825&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
+    <div className="activities-page" style={{ backgroundImage: 'url("https://images.all-free-download.com/images/graphicthumb/abstract_background_template_for_style_design_267606.jpg")' }}>
       <Container>
         <h1 className="text-center mt-5">Activities for Kids</h1>
         <Row className="justify-content-center">

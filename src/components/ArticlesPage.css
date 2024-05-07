@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 20px;
   color: #ffffff; /* Change the text color to white */
-  background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -25,12 +25,12 @@
   display: flex; /* Use flexbox */
   align-items: center; /* Align items vertically in the center */
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold; /* Make the text bold */
   /* Radiant effect */
-  text-shadow: 0 0 10px #cebbcd, /* White glow effect */
-               0 0 10px #cebbcd, /* Increase the glow effect */
-               0 0 10px #cebbcd; /* Further increase the glow effect */
+  text-shadow: 0 0 10px #f1ecf1, /* White glow effect */
+               0 0 10px #f1ecf1, /* Increase the glow effect */
+               0 0 10px #f1ecf1; /* Further increase the glow effect */
 }
 
 .clickable-sign {
@@ -38,15 +38,15 @@
 }
 
 .article-link:hover {
-  color: #000000; /* Change the text color on hover */
+  color: #2c2828; /* Change the text color on hover */
 }
 
 .article-link:hover .article-text {
-  color: #000000; /* Change the text color of the entire link on hover */
+  color: #7c7878; /* Change the text color of the entire link on hover */
 }
 
 .article-text {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .article-item {

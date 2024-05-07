@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css";
+import "./background.css"; // Import background.css
 
 const HomePage = () => {
   const [advice, setAdvice] = useState("");
@@ -54,7 +55,7 @@ const HomePage = () => {
       <div className="motherhood-section">
         <h2>Symbol of Motherhood</h2>
         <img
-          src="https://cdn.vectorstock.com/i/2000v/05/17/mother-turtle-and-baby-on-a-white-vector-30260517.avif"
+          src="https://ih1.redbubble.net/image.546075869.0495/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
           alt="Symbol of Motherhood"
           className="motherhood-image"
         />

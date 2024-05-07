@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./GroceryListPage.css";
 import RemoveIcon from "./RemoveIcon"
+import './background.css';
 
 const GroceryListPage = () => {
   const [groceryItems, setGroceryItems] = useState([]);

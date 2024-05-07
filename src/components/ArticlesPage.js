@@ -1,5 +1,6 @@
 import React from "react";
 import "./ArticlesPage.css";
+import "./background.css";
 
 const articles = [
   {
@@ -37,8 +38,16 @@ const ArticlesPage = () => {
         {articles.map((article, index) => (
           <li key={index} className="article-item">
             <div className="article-link">
-              <span className="clickable-sign">➔</span> {/* Add clickable sign */}
-              <a href={article.url} target="_blank" rel="noopener noreferrer" className="article-text">{article.title}</a>
+              <span className="clickable-sign">➔</span>{" "}
+              {/* Add clickable sign */}
+              <a
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="article-text"
+              >
+                {article.title}
+              </a>
             </div>
             <div className="article-description">
               <p>{article.description}</p>

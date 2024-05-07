@@ -71,7 +71,6 @@ p {
   margin-bottom: 10px; /* Add margin below images */
 }
 /* Add new styles for the Advice of the Day section */
-/* Add new styles for the Advice of the Day section */
 .advice {
   background-color: #fff; /* Set background color to white */
   padding: 20px; /* Add padding for spacing */
@@ -92,13 +91,23 @@ p {
   color: #555; /* Set text color */
 }
 .motherhood-section {
-  text-align: center;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
   margin-top: 20px;
 }
 
 .motherhood-image {
-  width: 100px;
-  height: auto;
-  margin-top: 10px;
+  width: 200px; /* Increase the width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Adjust top margin */
+  border-radius: 50%; /* Make the image circular */
+  border: 3px solid #fff; /* Add a white border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
-
+body {
+  background-image: url("https://images.all-free-download.com/images/graphicthumb/abstract_background_template_for_style_design_267606.jpg"); /* Add this line */
+  background-size: cover; /* Optionally adjust background size */
+  background-position: center; /* Optionally adjust background position */
+}
